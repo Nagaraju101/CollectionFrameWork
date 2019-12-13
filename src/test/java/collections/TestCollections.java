@@ -31,6 +31,14 @@ public class TestCollections
         System.out.println(mapConcepts.getMapValues());
         mapConcepts.getEmployeeObject();
        
+        
+        //Test find Duplicate values
+        FindDuplicateElements findDuplicateElements = new FindDuplicateElements();
+        
+        findDuplicateElements.findDuplicates();
+        findDuplicateElements.findDuplicatesHashSetSolution();
+        findDuplicateElements.findDuplicatesHashMapSolution();
+        
     }
     
    
