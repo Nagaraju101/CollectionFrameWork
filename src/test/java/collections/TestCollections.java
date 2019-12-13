@@ -36,7 +36,8 @@ public class TestCollections
         FindDuplicateElements findDuplicateElements = new FindDuplicateElements();
         
         findDuplicateElements.findDuplicates();
-        findDuplicateElements.findDuplicatesSecondSolution();
+        findDuplicateElements.findDuplicatesHashSetSolution();
+        findDuplicateElements.findDuplicatesHashMapSolution();
         
     }
     
