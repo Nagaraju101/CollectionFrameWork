@@ -42,7 +42,8 @@ public class FindDuplicateElements
             {
                 System.out.println(" element is: " + name);
             }
-            else {
+            else
+            {
                 System.out.println("duplicate element is: " + name);
             }
         }
@@ -53,26 +54,32 @@ public class FindDuplicateElements
 
     public void findDuplicatesHashMapSolution()
     {
-        HashMap<String, Integer>  hashMap = new HashMap<String, Integer>();
-        for(String language : languages) {
-            Integer  count = hashMap.get(language);
-            if ( count == null ) {
-                hashMap.put(language,1);
-            }else {
+        HashMap<String, Integer> hashMap = new HashMap<String, Integer>();
+        for (String language : languages)
+        {
+            Integer count = hashMap.get(language);
+            if (count == null)
+            {
+                hashMap.put(language, 1);
+            }
+            else
+            {
                 hashMap.put(language, ++count);
             }
         }
-        
-        //Retrieve the values from hashMap
-        
+
+        // Retrieve the values from hashMap
+
         Set<Entry<String, Integer>> entrySet = hashMap.entrySet();
-        for(Entry<String,Integer> entry : entrySet) {
-            if(entry.getValue() >1 ) {
-                System.out.println("Duplicte eelemtn found : " + entry.getKey() );
+        for (Entry<String, Integer> entry : entrySet)
+        {
+            if (entry.getValue() > 1)
+            {
+                System.out.println("Duplicte eelemtn found : " + entry.getKey());
             }
-            
+
         }
-        
+
     }
 
 }

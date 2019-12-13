@@ -59,7 +59,7 @@ public class LinkedListConcept
             i++;
         }
 
-     // Whileloop
+        // Whileloop
         System.out.println("+++++++++++++++++++++++++++++");
         System.out.println("This is while loop");
         int num = 0;
@@ -72,5 +72,4 @@ public class LinkedListConcept
 
     }
 
-     
 }
